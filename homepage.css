@@ -1,0 +1,255 @@
+html { 
+    height: 100%; 
+    margin: auto; 
+    width: 100%; 
+    overflow-inline: show;
+  } 
+  body{
+    padding:20px;
+  }
+
+/*top navigation*/
+.topnav {
+    background-color: #0f484c;
+    overflow: hidden;
+    margin-top:5;
+  }
+  
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family:header;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.split {
+    float: left;
+  background-color: transparent;
+  }
+  .topnav img{
+    translate:-5px -10px;
+  }
+
+
+    /*homeui*/
+  .mainlogo {
+    position: relative;
+    z-index: 3;
+  
+  }
+  .mainlogo img {
+    width: 100%;
+  }
+
+   /*egift button*/
+   .egifticon {
+     width: 125px; 
+    height: 127.5px;  
+    background-image: url("menustuff-23.png");
+    background-size: cover; 
+
+    border-radius: 25px;
+    border: 3px solid #ffffff;
+}
+.egifticon:hover {
+    background-image: url("menustuff-22.png"); 
+}
+.egifticon {
+  position: absolute;
+  z-index: 5;
+  margin-left: 275px;
+  margin-top: -60px;
+}
+  /*order button*/
+  .orderbutton {
+    width: 125px; 
+    height: 127.5px; 
+    background-image: url("Orderbuttonmain-23-23.png");
+    background-size: cover; 
+        border-radius: 25px;
+    border: 3px solid #ffffff;
+      position: absolute;
+  z-index: 4;
+  margin-left: 70px;
+  margin-top: -60px;
+}
+.orderbutton:hover {
+    background-image: url("Orderbuttonmain-22-22.png"); 
+}
+.orderbutton img{
+padding: 10px;}
+    
+
+  /*menu*/
+.STARTERS {
+  color: white;
+}
+.STARTERS img {
+  width: 15%;
+    vertical-align: middle;
+}
+.STARTERS {
+  width:100%
+}
+
+.menubody{
+  padding-left: 70px;
+}
+
+.contactsus {
+  color: white;
+}
+.contactsus img {
+  width: 20%;
+    vertical-align: middle;
+}
+
+.entreeadd {
+  display: flex;
+}
+
+
+.button-container {
+  display: flex;
+    justify-content: space-evenly;
+    width:25%;
+    vertical-align: middle;
+    color: white;
+}
+
+.bottom {
+position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 18%;
+  background-color: #0F484C;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+}
+.bottom img{
+  float:left;
+  width:30%;
+  padding-left: 30px;
+}
+
+
+/* Add animation (fade in the popup) */
+
+
+  @media only screen and (min-width: 768px) {
+.mainlogo img {
+  width: 70%
+}
+ .orderbutton {
+    position: absolute;
+  z-index: 2;
+    width: 147px; 
+    height: 145.7px;
+      margin-right:100px;
+  margin-top: -100px;
+}
+.STARTERS img{
+  width:8%;
+}
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family:header;
+  }
+  .hero {
+    width: 70%;
+    padding-left: 20%;
+    translate: -50px;
+  }
+  .uibuttons {
+    padding-left: 20%;
+  }
+  .menu {
+    translate: 5px -20px;
+  }
+  .bottom img{
+  float:left;
+  width:20%;
+  padding-left: 30px;
+}
+  }
+
+  
+      @media only screen and (min-width: 1080px) {
+
+ .orderbutton {
+    position: absolute;
+  z-index: 2;
+    width: 147px; 
+    height: 145.7px;
+      margin-right:100px;
+  margin-top: -100px;
+}
+.STARTERS img{
+  width:30%;
+}
+.hr {
+  width: 100%;
+}
+.STARTERS {
+  width:200%
+}
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family:header;
+  }
+  .hero {
+    width: 50%;
+    padding-left: 25%;
+    translate: 0px -50px;
+  }
+  .uibuttons {
+    padding-left: 35%;
+    padding-bottom: -100%;
+    size: 120%;
+  }
+  .menu {
+    translate: 10px -40px;
+    width: 20%;
+  }
+  .homeui {
+    padding-left: -50% ;
+    translate: 0px -60px;
+  }
+
+  .bottom {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 18%;
+  background-color: #0F484C;
+  color: white;
+  text-align: center;
+  align-items: center;
+}
+.bottom img{
+  float:left;
+  width:15%;
+  padding-left: 30px;
+}
+  }
